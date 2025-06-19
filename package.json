@@ -1,0 +1,28 @@
+{
+  "name": "gold_ico",
+  "version": "1.0.0",
+  "description": "This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-chai-matchers": "^2.0.8",
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@openzeppelin/hardhat-upgrades": "^3.9.0",
+    "hardhat": "^2.24.0",
+    "hardhat-deploy": "^1.0.2"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "4.8.2",
+    "@openzeppelin/contracts-upgradeable": "4.8.2",
+    "dotenv": "^16.5.0",
+    "hardhat-contract-sizer": "^2.10.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "keywords": []
+}
