@@ -1,0 +1,1 @@
+# BinGold_Smart_Contract
